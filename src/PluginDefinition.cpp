@@ -57,7 +57,7 @@ NppData nppData;
 std::wstring configAPIValue_secretKey        = TEXT("not-required-for-ollama"); // No API key needed for local Ollama
 std::wstring configAPIValue_baseURL          = TEXT("http://localhost:11434/"); // Default Ollama API endpoint
 std::wstring configAPIValue_proxyURL         = TEXT("0"); // 0: don't use proxy. Trailing '/' will be erased (if any)
-std::wstring configAPIValue_model            = TEXT("llama3"); // Default Ollama model
+std::wstring configAPIValue_model            = TEXT("deekseek-r1:latest"); // Default Ollama model
 std::wstring configAPIValue_instructions     = TEXT(""); // System message ("instuctions") for the Ollama API e.g. "Translate the given text into English." or "Create a PHP function based on the received text.". Leave empty to skip.
 std::wstring configAPIValue_temperature      = TEXT("0.7");
 std::wstring configAPIValue_maxTokens        = TEXT("0"); // 0: Skip `max_tokens` API setting. Recommended max. value:  <4.000
